@@ -1,0 +1,12 @@
+.container-fluid {
+    background-image: url('src/assets/images/unnamed.jpg');
+    height:750px;
+    font-weight: 900;
+    color:white;
+    
+}
+
+.one {
+    width:300px;
+    
+}

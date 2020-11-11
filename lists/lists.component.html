@@ -1,0 +1,28 @@
+
+
+
+
+<table class="table table-bordered table-hover">
+    <thead class="thead-light">
+        <tr class="one">
+           <th>UserId</th> 
+           <th>Id</th> 
+           <th>Title</th> 
+           <th>Body</th> 
+        </tr>
+</thead >
+<tbody *ngFor="let item of lists | slice: (page-1) * pageSize : (page-1) * pageSize + pageSize">
+<tr>
+    <td>{{item.userId}}</td>
+    <td>{{item.id}}</td>
+   <td> {{item.title}}</td>
+   <td> {{item.body}}</td> 
+</tr>
+
+</tbody>
+</table>
+
+<ul class="pagination">
+      <ngb-pagination [pageSize] = "25" [collectionSize]="100" [(page)]="page" aria-label="Default pagination"></ngb-pagination>
+</ul>
+  

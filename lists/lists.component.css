@@ -1,0 +1,18 @@
+.table-hover :hover{
+    color:red;
+}
+
+.table-hover {
+    font-weight: 900;
+    background-repeat:none;
+    background-image: url('src/assets/images/bd73662e9c4c8c3c8e595276d9193676.jpg');
+   background-size: cover;
+}
+
+
+.pagination {
+  font-size: larger;
+}
+.one {
+  text-align: center;
+}
