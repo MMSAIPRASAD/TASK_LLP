@@ -18,7 +18,7 @@ constructor(private router:Router,
 ngOnInit(): void {
   this.registerForm=this.fb.group({
     username:['CHINTU',Validators.required],
-    password:['CHINTU',Validators.required]
+    password:['chintu',Validators.required]
   })
 }
 

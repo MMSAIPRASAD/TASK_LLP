@@ -5,8 +5,13 @@ import { Injectable } from '@angular/core';
 })
 export class Posts1Service {
 
+
   constructor() { }
-  ValidateUser(uname,pwd){
+  ValidateUser(username,password){
+    if(username=="CHINTU"&&password=="chintu"){
     return true;
+    }
+    else
+    return false;
   }
 }
